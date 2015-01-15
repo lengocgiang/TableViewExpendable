@@ -24,6 +24,7 @@
 		516231031A67775B003B899E /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 516231021A67775B003B899E /* SectionHeaderView.m */; };
 		516231051A677775003B899E /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516231041A677775003B899E /* SectionHeaderView.xib */; };
 		516231071A679ACB003B899E /* first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516231061A679ACB003B899E /* first.plist */; };
+		5162310A1A67A21D003B899E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 516231091A67A21D003B899E /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		516231021A67775B003B899E /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
 		516231041A677775003B899E /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
 		516231061A679ACB003B899E /* first.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = first.plist; sourceTree = "<group>"; };
+		516231081A67A21D003B899E /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		516231091A67A21D003B899E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		516230C31A6765CE003B899E /* TableViewExpandable */ = {
 			isa = PBXGroup;
 			children = (
+				516231081A67A21D003B899E /* CustomCell.h */,
+				516231091A67A21D003B899E /* CustomCell.m */,
 				516231061A679ACB003B899E /* first.plist */,
 				516230FE1A6776B0003B899E /* TableViewController.h */,
 				516230FF1A6776B0003B899E /* TableViewController.m */,
@@ -288,6 +293,7 @@
 				516231001A6776B0003B899E /* TableViewController.m in Sources */,
 				516230EC1A677246003B899E /* Play.m in Sources */,
 				516231031A67775B003B899E /* SectionHeaderView.m in Sources */,
+				5162310A1A67A21D003B899E /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
